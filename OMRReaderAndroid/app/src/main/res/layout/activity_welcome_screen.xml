@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgradient"
+    tools:context=".Activity.loginActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/bg_round" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/open_sans_semibold"
+            android:gravity="center"
+            android:text="Login as Teacher">
+
+        </com.google.android.material.button.MaterialButton>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/open_sans_semibold"
+            android:gravity="center"
+            android:text="Login as Student">
+
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginBottom="217dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/logu" />
+
+</RelativeLayout>
